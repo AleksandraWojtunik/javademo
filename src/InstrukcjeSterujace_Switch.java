@@ -6,7 +6,21 @@ public class InstrukcjeSterujace_Switch {
         String loginPage = "Login";
         String contactPage = "Contact";
 
-        String page;
+        String page = "nowaStrona";
+
+        switch (page){
+            case "Home":
+                System.out.println("Przełączam się do strony Home");
+                break;
+            case "Login":
+                System.out.println("Przełączam się do strony Login");
+                break;
+            case "Contact":
+                System.out.println("Przełączam się do strony Contact");
+                break;
+            default:
+                System.out.println("Nie znam takiej strony");
+        }
 
 
     }
